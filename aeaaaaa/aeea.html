@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= 'utf-8'>
+    <meta http-equiv='X-UA-Compatible'  content='IE=edge'>
+    <title>aea</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <style>
+        body {
+            background-color: black;
+        }
+    </style>
+    <script>
+        function accionParaCuandoEllaDigaQueSi(){
+            alert('JÑLZBJFG, feliz 1er mes d conocernos xd=)');
+        }
+
+        function mueveElBoton(){
+            width= windows.innerWidth
+            height= windows.innerHeight;
+
+            newWidth=(Math.random()* width);
+            newHeight=(Math.random()*height);
+
+
+            document.getElementById('btnno').style.postition="absolute";
+            document.getElementById('btnno').style.left=newWidth+"px";
+            document.getElementById('btnno').style.postition=newHeight+"px";
+
+        }
+     </script>
+</head>
+<body>
+    </h3>ya pero, eres o no eres?</h3>
+    <input type="button" onclick="accionParaCuandoEllaDigaQueSi()" id="btnci" value="ci"/>
+    <input type="button" id="btnno" onmouseover="mueveElBoton()" value="no" />
+    <img src="minion.png" width="200">
+</body>
+</html>
+
